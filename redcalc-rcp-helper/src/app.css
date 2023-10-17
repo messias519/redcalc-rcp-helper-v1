@@ -1,0 +1,118 @@
+body {
+    background-color: #1d1d1d;
+    color: #ff5252;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .mainButton {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px ;
+  }
+  
+  .mainButton button {
+    background-color: #ff5252;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pulseOn button {
+    animation: pulse 1s infinite;
+    background-color: #ff5252;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+
+  .pulseOff button {    
+    background-color: #5f0000;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .actionButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .actionButton button {
+    background-color: #ff5252;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .actionButton span {
+    font-size: 18px;
+  }
+  
+  .cssTempoExcedido button {
+    animation: pulse 1s infinite;
+    color: rgb(0, 0, 0);
+    background-color: #ff0000;
+  }
+
+  .resumo ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resumo li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .zerar button {
+    background-color: #ff5252;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
